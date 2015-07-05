@@ -1,7 +1,7 @@
 CREATE TABLE user (
 	id BIGINT,
-	first_name VARCHAR(40),
-	last_name VARCHAR(40),
+	first_name VARCHAR(40) NOT NULL,
+	last_name VARCHAR(40) NOT NULL,
 	passport_number INT(2),
 	CONSTRAINT pk_userid PRIMARY KEY (id),
 	CONSTRAINT uk_passportnumber UNIQUE (passport_number)

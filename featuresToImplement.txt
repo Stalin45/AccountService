@@ -1,0 +1,9 @@
+1.001:
+- Add MappedSuperclass domain ( with id and access type - field) and DataModel (prepersist - new Date())
+- Reflexively get class for domain
+
+1.002:
+- Add hashed password to user entity
+
+1.003:
+- Add tocken authentication via REST
