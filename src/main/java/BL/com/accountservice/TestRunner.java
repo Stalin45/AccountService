@@ -1,4 +1,4 @@
-package BL.com.accountservice;
+package bl.com.accountservice;
 
 import domain.com.accountservice.dao.UserDAO;
 import domain.com.accountservice.dao.impl.UserDAOImpl;
