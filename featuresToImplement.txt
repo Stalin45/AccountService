@@ -6,4 +6,4 @@
 - Add hashed password to user entity
 
 1.003:
-- Add tocken authentication via REST
+- Add tocken authentication via web.com.accountservice.rest

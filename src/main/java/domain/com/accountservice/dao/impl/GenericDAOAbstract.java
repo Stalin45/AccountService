@@ -17,6 +17,12 @@ public abstract class GenericDAOAbstract<T extends Serializable> implements Gene
 
     protected Transaction transaction;
 
+    {
+        if (session == null) {
+            session = HibernateUtil.getSessionFacroty().getCurrentSession();
+        }
+    }
+
     public void create(T object) {
         session.persist(object);
     }
